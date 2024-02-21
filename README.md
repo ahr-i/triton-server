@@ -1,6 +1,6 @@
 # Triton Server Stable-Diffusion
 
-## 1. Auto DOcker start
+## 1. Auto Docker start
 ### 1.1 Download
 ```
 git clone https://github.com/ahr-i/triton-server.git
@@ -11,6 +11,10 @@ git clone https://github.com/ahr-i/triton-server.git
 cd triton-server
 bash ./auto_start.sh
 ```
+
+<br />
+<br />
+<br />
 
 ## 2. Manual Docker start
 ### 2.1 Download
