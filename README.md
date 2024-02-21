@@ -12,6 +12,12 @@ cd triton-server
 bash ./auto_start.sh
 ```
 
+### 1.2.1 Error
+If you encounter the error '$'\r': command not found', please use the following command.
+```
+sed -i 's/\r$//' ./auto_start.sh
+```
+
 <br />
 <br />
 <br />
