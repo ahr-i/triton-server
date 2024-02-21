@@ -2,12 +2,12 @@
 
 ## 1. Download
 ```
-git clone https://github.com/ahr-i/triton-stable-diffusion.git
+git clone https://github.com/ahr-i/triton-server.git
 ```
 
 ## 2. Docker build
 ```
-cd triton-stable-diffusion
+cd triton-server
 docker build -t tritonserver .
 ```
 
