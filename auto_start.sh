@@ -31,7 +31,6 @@ PORT="8022"
 USER="root"
 PASSWORD="ahri"
 COMMAND="nohup /opt/tritonserver/bin/tritonserver --model-repository /models/test > /dev/null 2>&1 & exit"
-COMMAND2="/opt/tritonserver/bin/tritonserver --model-repository /models/test"
 sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no -p $PORT $USER@$HOST "$COMMAND"
 
 echo "* (SCRIPT) Auto start success."
