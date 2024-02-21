@@ -26,6 +26,7 @@ echo "* (SCRIPT) Docker start success!"
 
 sleep 5
 
+echo "* (SCRIPT) Triton server start."
 HOST="localhost"
 PORT="8022"
 USER="root"
